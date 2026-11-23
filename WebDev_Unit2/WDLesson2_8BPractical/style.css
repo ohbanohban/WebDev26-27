@@ -1,12 +1,85 @@
-/* Challenge 2: Use w3SchoolsMockUp.png to help you write the necessary CSS rules.
-   Hint: Remember all the fundamental CSS rules when working with flexboxes */
-   .fetty-wap{
-      display: flex;
-   }
-   .keem{
-      flex: 1;
-      text-align:center;
-      padding:10px;
-      transition:0.5s  
-      
-   }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fetty-wap{
+  width: 100%;
+  height: 38px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.keem {
+  width: 100%;
+  height: 39px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: green;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+.kd {
+  width: 100px;
+  height: 196px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px 8px;
+  box-shadow: 2px 2px 3px gray;
+}
+
+.kd a {
+  color: black;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+/* HTML section */
+#main {
+  flex: 1;
+  height: 196px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Sample Code section */
+#sample {
+  flex: 1;
+  height: 196px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer */
+#footer {
+  width: 100%;
+  height: 33px;
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  font-weight: bold;
+}
+
